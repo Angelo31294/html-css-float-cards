@@ -19,12 +19,17 @@
 /* --- TYPOGRAPHY --- */
 body{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fredoka One', cursive;
 }
-
+p{
+    color: black;
+    text-align: center;
+}
 /* --- MAIN --- */
+
 h1{
     padding: 30px 0;
     font-size: 30px;
@@ -34,14 +39,19 @@ h1{
 .card{
     width: calc(33.33% - 20px);
     float: left;
-    margin: 10px 10px 20px 10px;
+    margin: 40px 10px 0px 10px;
     background-color: #0f0e17;
 }
 .left{
     margin-left: 0px;
 }
 .image{
-    display: block;
+    float: left;
     width: 100px;
     height: 100px;
+}
+.info-card{
+    width: calc(100% - 100px);
+    float: left;
+    padding: 15px;
 }
