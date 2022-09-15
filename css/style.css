@@ -1,4 +1,29 @@
 /* --- RESET --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /* --- COMMON --- */
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 /* --- TYPOGRAPHY --- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fredoka One', cursive;
+}
 /* --- MAIN --- */
+h1{
+    padding: 30px 0;
+    font-size: 30px;
+    color: #E53170;
+}
